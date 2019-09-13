@@ -1,7 +1,7 @@
 # Учебный проект «Код и Магия» [![Build status][travis-image]][travis-url]
 
 * Студент: [Аня Куликова](https://up.htmlacademy.ru/javascript/18/user/1005307).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Мастеров] (https://htmlacademy.ru/profile/id912463).
 
 ---
 
