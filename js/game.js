@@ -416,6 +416,8 @@ window.Game = (function () {
       this._removeGameListeners();
       window.addEventListener('keydown', this._pauseListener);
 
+      // чтобы статистика появлялась сразу после перезагрузки страницы
+      this.state.currentStatus = Verdict.WIN;
       this._drawPauseScreen();
     },
 
