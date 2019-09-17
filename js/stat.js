@@ -3,19 +3,17 @@
 var Bar = {
   WIDTH: 40,
   GAP: 50
-}
+};
 
 var Cloud = {
   WIDTH: 420,
   HEIGHT: 270,
   X: 100,
   Y: 10
-}
+};
 
 var GRAPH_HEIGHT = 150;
 var GAP = 10;
-var MESSAGE_LINEHEIGHT = 20;
-var message = '';
 
 // функция показа окна статистики и тень к ней
 var renderCloud = function (ctx, x, y) {
@@ -38,13 +36,13 @@ var renderWinner = function (ctx, x, y) {
   printMessage(ctx, 'Ура вы победили!\nСписок результатов:', x, y);
 };
 
-//Функция переноса текста на другую строчку
+// Функция переноса текста на другую строчку
 var printMessage = function (ctx, message, x, y) {
-  var lines = message.split('\n')
+  var lines = message.split('\n');
   for (var i = 0; i < lines.length; i++) {
     ctx.fillText(lines[i], x, y + 20 * i);
   }
-}
+};
 
 // Функция получения рандомного цвета
 var getRandomColor = function () {
